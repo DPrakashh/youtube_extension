@@ -1,0 +1,17 @@
+.yt-focus-hide-recommendations #related,
+.yt-focus-hide-recommendations #secondary,
+.yt-focus-hide-recommendations #items.ytd-watch-next-secondary-results-renderer,
+.yt-focus-hide-recommendations .ytp-endscreen-content,
+.yt-focus-hide-recommendations ytd-guide-renderer,
+.yt-focus-hide-recommendations ytd-watch-next-secondary-results-renderer {
+  display: none !important;
+}
+
+.yt-focus-hide-recommendations ytd-two-column-browse-results-renderer {
+  padding-left: 0 !important;
+  margin-left: 0 !important;
+}
+
+.yt-focus-hide-recommendations ytd-page-manager {
+  margin-left: 0 !important;
+}

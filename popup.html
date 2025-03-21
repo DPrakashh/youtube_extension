@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>YouTube Focus</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <h1>DP Padhle</h1>
+    
+    <!-- Hide Recommendations Toggle -->
+    <div class="section">
+      <h2>Hide Recommendations</h2>
+      <label class="switch">
+        <input type="checkbox" id="hideRecommendations" checked>
+        <span class="slider round"></span>
+      </label>
+    </div>
+
+    <!-- Focus Timer -->
+    <div class="section">
+      <h2>Focus Timer</h2>
+      <div class="timer-display">
+        <span id="minutes">25</span>:<span id="seconds">00</span>
+      </div>
+      <div class="timer-controls">
+        <button id="startTimer" class="btn">Start</button>
+        <button id="stopTimer" class="btn" disabled>Stop</button>
+        <button id="resetTimer" class="btn">Reset</button>
+      </div>
+      <div class="timer-settings">
+        <label for="timerDuration">Duration (minutes):</label>
+        <select id="timerDuration">
+          <option value="5">5</option>
+          <option value="10">10</option>
+          <option value="15">15</option>
+          <option value="25" selected>25</option>
+          <option value="30">30</option>
+          <option value="45">45</option>
+          <option value="60">60</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- Playback Speed -->
+    <div class="section">
+      <h2>Playback Speed</h2>
+      <div class="playback-controls">
+        <input type="range" id="playbackSpeed" min="0.25" max="3" step="0.25" value="1">
+        <span id="speedValue">1x</span>
+      </div>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
