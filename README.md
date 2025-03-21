@@ -1,73 +1,83 @@
-<H1>YouTube Focus Extension 🚀</H1>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>YouTube Focus Extension 🚀</title>
+</head>
+<body>
 
-Welcome to the YouTube Focus Extension repository! This Chrome extension is designed to help you stay focused and productive while using YouTube. Whether you're studying, working, or just trying to avoid distractions, this extension has got your back.
+    <h1>YouTube Focus Extension 🚀</h1>
 
-✨ Features
-Hide Sidebar Recommendations:
+    <p>Welcome to the YouTube Focus Extension repository! This Chrome extension is designed to help you stay focused and productive while using YouTube. Whether you're studying, working, or just trying to avoid distractions, this extension has got your back.</p>
 
-Removes distracting "Up Next" videos from the sidebar so you can focus on the content you’re watching.
+    <h2>✨ Features</h2>
 
-Adjustable Playback Speed (Up to 3x):
+    <h3>Hide Sidebar Recommendations:</h3>
+    <p>Removes distracting "Up Next" videos from the sidebar so you can focus on the content you’re watching.</p>
 
-Speed up or slow down videos to match your preferred pace. Perfect for binge-watchers and speed-learners!
+    <h3>Adjustable Playback Speed (Up to 3x):</h3>
+    <p>Speed up or slow down videos to match your preferred pace. Perfect for binge-watchers and speed-learners!</p>
 
-Focus Timer:
+    <h3>Focus Timer:</h3>
+    <p>A built-in timer to help you stay productive. Set your work intervals and take breaks like a pro.</p>
 
-A built-in timer to help you stay productive. Set your work intervals and take breaks like a pro.
+    <h2>🛠️ How to Use</h2>
 
-🛠️ How to Use
-Step 1: Clone the Repository
-bash
-Copy
-git clone https://github.com/your-username/youtube-focus-extension.git  
-Step 2: Load the Extension in Chrome
-Open Chrome and go to chrome://extensions/.
+    <h3>Step 1: Clone the Repository</h3>
+    <pre><code>git clone https://github.com/your-username/youtube-focus-extension.git</code></pre>
 
-Enable Developer Mode (toggle in the top-right corner).
+    <h3>Step 2: Load the Extension in Chrome</h3>
+    <ol>
+        <li>Open Chrome and go to <code>chrome://extensions/</code>.</li>
+        <li>Enable Developer Mode (toggle in the top-right corner).</li>
+        <li>Click <strong>Load Unpacked</strong> and select the folder where you cloned this repository.</li>
+    </ol>
 
-Click Load Unpacked and select the folder where you cloned this repository.
+    <h3>Step 3: Enjoy a Distraction-Free YouTube Experience</h3>
+    <p>Open YouTube, and the extension will automatically:</p>
+    <ul>
+        <li>Hide sidebar recommendations.</li>
+        <li>Allow you to adjust playback speed up to 3x.</li>
+        <li>Provide a focus timer to keep you on track.</li>
+    </ul>
 
-Step 3: Enjoy a Distraction-Free YouTube Experience
-Open YouTube, and the extension will automatically:
+    <h2>🧰 Tools Used</h2>
+    <ul>
+        <li><strong>Claude AI:</strong> For generating initial code snippets and logic.</li>
+        <li><strong>DeepSeek:</strong> For debugging and optimizing the code.</li>
+        <li><strong>HTML, CSS, JavaScript:</strong> Core technologies used to build the extension.</li>
+    </ul>
 
-Hide sidebar recommendations.
+    <h2>🚨 Challenges Faced</h2>
+    <ul>
+        <li><strong>Debugging:</strong> What was supposed to be a 30-minute project turned into a 2.5-hour debugging session. Turns out, vibe coding isn’t always as smooth as it sounds!</li>
+        <li><strong>Learning Curve:</strong> As a college student, I realized the importance of understanding the code rather than just relying on AI tools.</li>
+    </ul>
 
-Allow you to adjust playback speed up to 3x.
+    <h2>📂 Project Structure</h2>
+    <pre>
+youtube-focus-extension/
+├── manifest.json   # Extension metadata
+├── background.js   # Background script for extension logic
+├── content.js      # Injects functionality into YouTube
+├── popup/
+│   ├── popup.html  # Popup UI for focus timer
+│   ├── popup.js    # Logic for the popup
+│   └── styles.css  # Styling for the popup
+└── README.md       # You're here!
+    </pre>
 
-Provide a focus timer to keep you on track.
+    <h2>📜 License</h2>
+    <p>This project is open-source and available under the MIT License. Feel free to use, modify, and share it!</p>
 
-🧰 Tools Used
-Claude AI: For generating initial code snippets and logic.
+    <h2>💡 Future Improvements</h2>
+    <ul>
+        <li>Add customizable focus timer intervals.</li>
+        <li>Include a "block recommendations" toggle for more control.</li>
+        <li>Improve UI/UX for the popup.</li>
+    </ul>
 
-DeepSeek: For debugging and optimizing the code.
+    <p>Feel free to contribute, raise issues, or suggest new features! Let’s make this extension even better together. Happy coding! 🚀</p>
 
-HTML, CSS, JavaScript: Core technologies used to build the extension.
+</body>
+</html>
 
-🚨 Challenges Faced
-Debugging: What was supposed to be a 30-minute project turned into a 2.5-hour debugging session. Turns out, vibe coding isn’t always as smooth as it sounds!
-
-Learning Curve: As a college student, I realized the importance of understanding the code rather than just relying on AI tools.
-
-📂 Project Structure
-Copy
-youtube-focus-extension/  
-├── manifest.json          # Extension metadata  
-├── background.js         # Background script for extension logic  
-├── content.js            # Injects functionality into YouTube  
-├── popup/  
-│   ├── popup.html        # Popup UI for focus timer  
-│   ├── popup.js          # Logic for the popup  
-│   └── styles.css        # Styling for the popup  
-└── README.md             # You're here!  
-📜 License
-This project is open-source and available under the MIT License. Feel free to use, modify, and share it!
-
-💡 Future Improvements
-Add customizable focus timer intervals.
-
-Include a "block recommendations" toggle for more control.
-
-Improve UI/UX for the popup.
-
-
-Feel free to contribute, raise issues, or suggest new features! Let’s make this extension even better together. Happy coding! 🚀
