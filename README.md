@@ -1,4 +1,5 @@
-YouTube Focus Extension 🚀
+<H1>YouTube Focus Extension 🚀</H1>
+
 Welcome to the YouTube Focus Extension repository! This Chrome extension is designed to help you stay focused and productive while using YouTube. Whether you're studying, working, or just trying to avoid distractions, this extension has got your back.
 
 ✨ Features
